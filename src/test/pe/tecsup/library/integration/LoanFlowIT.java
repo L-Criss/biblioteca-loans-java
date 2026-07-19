@@ -1,11 +1,13 @@
-import com.tecsup.library.model.Book;
-import com.tecsup.library.model.Member;
-import com.tecsup.library.repo.mem.InMemoryBookRepository;
-import com.tecsup.library.repo.mem.InMemoryLoanRepository;
-import com.tecsup.library.repo.mem.InMemoryMemberRepository;
-import com.tecsup.library.service.DomainException;
-import com.tecsup.library.service.LoanService;
-import com.tecsup.library.util.ClockProvider;
+package pe.tecsup.library.integration;
+import pe.edu.tecsup.library.model.Book;
+import pe.edu.tecsup.library.model.Member;
+import pe.edu.tecsup.library.repo.mem.InMemoryBookRepository;
+import pe.edu.tecsup.library.repo.mem.InMemoryLoanRepository;
+import pe.edu.tecsup.library.repo.mem.InMemoryMemberRepository;
+
+import pe.edu.tecsup.library.service.DomainException;
+import pe.edu.tecsup.library.service.LoanService;
+import pe.edu.tecsup.library.util.ClockProvider;
 import org.junit.jupiter.api.*;
 
 import java.math.BigDecimal;
